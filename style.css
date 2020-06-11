@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    position: relative;
 }
 
 header {
@@ -33,8 +34,12 @@ a {
     align-items: center;
 }
 
-.nav .content+.content {
+.nav__link+.nav__link {
     margin-left: 1em;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
 }
 
 .sign-in-btn {
@@ -94,6 +99,9 @@ a {
 
 }
 
+.mic-icon:hover {
+    cursor: pointer;
+}
 
 .main {
     margin: 0 auto;
@@ -119,4 +127,20 @@ a {
 
 a:hover {
     opacity: 1;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    padding: .8em 2em;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadada;
+}
+
+.footer>.row>.nav__link+.nav__link {
+    margin-left: 2em;
 }
