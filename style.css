@@ -76,7 +76,7 @@ header {
 }
 
 .search-icon {
-    background: url(./img/search--v1.png)no-repeat;
+    background: url("./img/search--v1.png")no-repeat;
     background-position: center;
     background-size: contain;
     padding: 8px;
@@ -92,7 +92,7 @@ header {
 }
 
 .mic-icon {
-    background: url(./img/mic.png)no-repeat;
+    background: url("./img/mic.png")no-repeat;
     background-position: center;
     background-size: contain;
     padding: 8px;
@@ -113,7 +113,7 @@ header {
 }
 
 .apps-icon {
-    background: url(./img/apps-icon.png);
+    background: url("./img/apps-icon.png");
     width: 20px;
     height: 20px;
     background-size: contain;
